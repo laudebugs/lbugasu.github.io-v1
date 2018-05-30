@@ -1,8 +1,8 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="lbugasu.github.io" resolutions="1x" timestamp="1527647803021">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="lbugasu.github.io" resolutions="1x" timestamp="1527648444465">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="351040908" ref="index"/>
-    <file name="nomq_index.css" crc="3793240882" ref="index"/>
+    <file name="index.css" crc="3864295083" ref="index"/>
+    <file name="nomq_index.css" crc="4140828840" ref="index"/>
   </folder>
   <folder name="assets">
     <file name="resume--updated-16-march-2018.pdf" crc="100199503" seo="true" mt="1522690379000"/>
@@ -117,10 +117,10 @@
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="index.css" crc="4046047050" ref="phone>index"/>
+      <file name="index.css" crc="4170708070" ref="phone>index"/>
       <file name="nomq_index.css" crc="3824530138" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="167216970" seo="true" mt="1527647717781" redirect="true"/>
+    <file name="index.html" crc="3995378644" seo="true" mt="1527648417865" redirect="true"/>
   </folder>
-  <file name="index.html" crc="48378123" seo="true" mt="1527647601182" redirect="true"/>
+  <file name="index.html" crc="4278676905" seo="true" mt="1527648310287" redirect="true"/>
 </manifest>
