@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="lbugasu.github.io" resolutions="1x" timestamp="1527650243337">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="lbugasu.github.io" resolutions="1x" timestamp="1527695722602">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="index.css" crc="3941664547" ref="index"/>
@@ -22,47 +22,24 @@
   <folder name="images">
     <file name="bg5.jpg" crc="3955164273" ref="phone>index:index">
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
     </file>
     <file name="nyu.png" crc="4056170652" seo="true" ref="phone>index:index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
     <file name="icons8-mind-map-128.png" crc="409815468" seo="true" ref="phone>index:index">
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
     </file>
     <file name="pasted-svg-210x3.svg" crc="3917255510" seo="true" ref="phone>index:index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
     <file name="pasted svg 210x3_poster_.png" crc="409724046" ref="phone>index"/>
     <file name="icons8-microscope-128.png" crc="242945654" seo="true" ref="phone>index:index">
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
     </file>
     <file name="hobby.png" crc="259779799" seo="true" ref="phone>index:index">
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
     </file>
     <file name="pasted-svg-210x32.svg" crc="3917255510" seo="true" ref="phone>index:index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -74,43 +51,27 @@
     <file name="pasted svg 210x3_poster_2.png" crc="4131883350" ref="phone>index"/>
     <file name="icons8-itunes-96.png" crc="3918201204" seo="true" ref="phone>index:index">
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
     </file>
     <file name="512px-play_music_trianglesvg.png" crc="449840304" seo="true" ref="phone>index:index">
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
     </file>
     <file name="podbean.svg" crc="498757376" seo="true" ref="phone>index:index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
     <file name="podbean_poster_.png" crc="3934715729" ref="phone>index"/>
     <file name="icons8-twitter-96.png" crc="4030605681" seo="true" ref="phone>index:index">
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
     </file>
     <file name="icons8-linkedin-96.png" crc="184171523" seo="true" ref="phone>index:index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
     <file name="icons8-github-96.png" crc="3982370976" seo="true" ref="phone>index:index">
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
     </file>
     <file name="icons8-secured-letter-96.png" crc="4154395565" seo="true" ref="phone>index:index">
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
     </file>
     <file name="icons8-resume-96.png" crc="4277403529" seo="true" ref="phone>index:index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
     <file name="blank.gif" crc="4208392903" ref="phone>index:index"/>
@@ -119,10 +80,9 @@
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="index.css" crc="466527389" ref="phone>index"/>
-      <file name="nomq_index.css" crc="3824530138" ref="phone>index"/>
+      <file name="index.css" crc="4052187877" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="4054749001" seo="true" mt="1527649698246" redirect="true"/>
+    <file name="index.html" crc="295666426" seo="true" mt="1527695699180" redirect="true"/>
   </folder>
   <file name="index.html" crc="4041768989" seo="true" mt="1527650226273" redirect="true"/>
 </manifest>
