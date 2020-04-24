@@ -7,28 +7,71 @@
     src: url('css/fonts/Cremona-Sans-Typeface/Cremona.ttf');
 }
 html{
-    background-color: black;
+    margin: 0;
+    padding: 0;
+    cursor: url('images/cursor.png') 20 20,  pointer;
+
+}
+body{
+    font-family: temeraire, serif;
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size: 200%;
 }
 h1{
-    font-family: "LeagueSpartan";
+    font-weight: 700;
+    font-size: 700%;
+    font-style: normal;
+    margin: 0;
+    border: 0;
+}
+div{
+    margin: 0;
+    border: 0;
+}
+div.title{
+    height: 25vh;
+    margin: 0;
+    border: 0;
+
+}
+
+#left{
+    background-color: #0097a7;
+    text-align: right;
+    color: white;
+}
+#right{
+    background-color: white;
+    text-align: left;
+    color: #0097a7;
+}
+.body{
+    width: 49.5%;
+    display: inline-block;
     font-size: 500%;
-    color: #ffeb3b;
+    color: #0097a7;
 }
-.memory{
-    color: #ff7043;
-    font-family: "League Spartan";
+.body2{
+    width: 49.5%;
+    display: inline-block;
+    font-size: 100%;
+    color: #0097a7
 }
-.energy{
-    color: #66bb6a;
-    font-family: "League Spartan";
+
+a{
+    text-decoration: none;
+    color: #0097a7;
+
 }
-.now{
-    color: #e91e63;
-    font-family: "League Spartan";
+p.about:hover, a:hover{
+    cursor: url('images/cursor.png') 20 20,  pointer;
+    color:  rgba(159, 109, 238, 0.767);
+    transition: border-bottom .2s, border-left .4s, border-top .6s, border-right .9s;
 }
-.wait{
-    color: #fd9ef8;
-}
-div.header{
-    text-align: center;
+iframe{
+    position: relative;
+    font-size: 50%;
 }
