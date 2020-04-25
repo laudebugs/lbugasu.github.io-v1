@@ -76,12 +76,14 @@ div.title{
     display: inline-block;
     font-size: 500%;
     color: #0097a7;
+    vertical-align: top;
 }
 .body2{
-    width: 49.5%;
+    width: 30.5%;
     display: inline-block;
-    font-size: 100%;
-    color: #0097a7
+    font-size: 50%;
+    color: #0097a7;
+    text-align: center;
 }
 
 a{
@@ -95,7 +97,6 @@ p.about:hover, a:hover{
     transition: border-bottom .2s, border-left .4s, border-top .6s, border-right .9s;
 }
 iframe{
-    position: relative;
     font-size: 50%;
 }
 div.layer{
