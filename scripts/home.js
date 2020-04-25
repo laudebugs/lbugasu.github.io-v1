@@ -19,7 +19,7 @@ document.querySelector('.projects').addEventListener('click', function(evt){
                     <h2>On This Topic</h2>
                     <h4>a website to curate podcasts based on a specific topic</h4>
                     <p><em>Technologies: </em>Javascript, Nodejs, MongoDB, HTML, CSS</p>
-                    <a href="linserv1.cims.nyu.edu:20908">Project Link</a>
+                    <a href="http://linserv1.cims.nyu.edu:20908/">Project Link</a>
                     <img  class="demo"src="css/images/on this topic.gif" alt="">
             </div>
 
