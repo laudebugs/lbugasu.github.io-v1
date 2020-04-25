@@ -11,7 +11,7 @@ document.querySelector('.projects').addEventListener('click', function(evt){
                 <h2 id="title"class="alignR">A difinitive guide to</h3>
             </div>
             <div id="greyBG" class="rightBlock">
-                <h3 id="title"class="alignL">my work.</h3>
+                <h3 id="title"class="alignL"> my work.</h3>
             </div>
         </div>
         <div id="layer">
@@ -54,7 +54,7 @@ document.querySelector('.projects').addEventListener('click', function(evt){
                     <li>digitize non-digital content</li>
                     <li>Understand data from multiple source points</li>
                 </ul>
-                <h4>Preliminary site</h4>
+                <h4>Preliminary site:</h4>
                 <img class="demo"src="css/images/tamaduni.png" alt="">
             </div>
         </div>
