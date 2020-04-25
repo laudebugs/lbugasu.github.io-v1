@@ -18,14 +18,38 @@ body{
     padding: 0;
 }
 p{
-    font-size: 200%;
+    margin: 0;
+    font-size: 150%;
+}
+li{
+    margin: 0;
+    font-size: 150%; 
 }
 h1{
+    margin: 0;
     font-weight: 700;
     font-size: 700%;
     font-style: normal;
     margin: 0;
     border: 0;
+}
+#title{
+    font-size: 500%;
+}
+#title2{
+    font-size: 150%;
+}
+h2{
+    margin: 0;
+    font-size: 250%;
+}
+h3{
+    margin: 0;
+    font-size: 200%;
+}
+h4{
+    margin: 0;
+    font-size: 175%;
 }
 div{
     margin: 0;
@@ -74,4 +98,53 @@ p.about:hover, a:hover{
 iframe{
     position: relative;
     font-size: 50%;
+}
+div.layer{
+    text-align: center;
+    border: 0;
+    margin: 0;
+    vertical-align: middle;
+}
+div.rightBlock{
+    display: inline-block;
+    width: 59.5%;
+}
+div.leftBlock{
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+}
+#whiteBG{
+    background-color: white;
+    color: #757575;
+    height: 100%;
+}
+#greyBG{
+    color: white;
+    background-color: #757575;
+    height: 100%;
+}
+.alignR{
+    text-align: right;
+}
+.alignL{
+    text-align: left;
+}
+img.demo{
+    max-height: 80%;
+    max-width: 80%;
+    margin: 5%;
+}
+#greyBG a{
+    color: white;
+    font-size: 150%;
+}
+#whiteBG a{
+    color: #757575;
+    font-size: 150%;
+}
+
+#greyBG a:hover, #whiteBG a:hover{
+    text-decoration: overline;
+    color: deeppink;
 }
