@@ -148,3 +148,6 @@ img.demo{
     text-decoration: overline;
     color: deeppink;
 }
+#greyBG a, #whiteBG a{
+    color: rgb(195, 189, 98);
+}
