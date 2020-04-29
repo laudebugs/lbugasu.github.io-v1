@@ -155,6 +155,12 @@ img.demo{
     text-decoration: overline;
     color: deeppink;
 }
+p.about:hover{
+    color: #c4d126;
+}
+.writing a:hover{
+    color: #f5a578;
+}
 #greyBG a, #whiteBG a{
     color: rgb(195, 189, 98);
 }
