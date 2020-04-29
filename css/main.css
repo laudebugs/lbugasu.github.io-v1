@@ -78,6 +78,7 @@ div.title{
     color: #0097a7;
     vertical-align: top;
 }
+
 .body2{
     width: 30.5%;
     display: inline-block;
@@ -113,6 +114,12 @@ div.leftBlock{
     display: inline-block;
     width: 40%;
     height: 100%;
+}
+@media (max-width:1000px){
+    .body2,.body, div.rightBlock, div.leftBlock{
+        width: 100%;
+        display: block;
+    }
 }
 #whiteBG{
     background-color: white;
