@@ -10,7 +10,7 @@ html{
     margin: 0;
     padding: 0;
     cursor: url('images/cursor.png') 20 20,  pointer;
-
+    background-color: #e3dac1;
 }
 body{
     font-family: temeraire, serif;
@@ -18,7 +18,29 @@ body{
     padding: 0;
 }
 p{
-    margin: 0;
+    font-size: 125%;
+}
+p.bio{
+    padding: 5%;
+    color: #57365a;
+}
+span.kenya{
+    font-size: 125%;
+}
+span.paroz{
+    text-transform: capitalize;
+    font-size: 70%;
+}
+span.shoes{
+    font-weight: 700;
+}
+span.perspectives{
+    text-decoration: underline;
+}
+span.motivation{
+    font-family: temeraire, serif;
+    font-style: normal;
+    font-weight: 200;
     font-size: 150%;
 }
 li{
@@ -32,64 +54,81 @@ h1{
     margin: 0;
     border: 0;
 }
-#title{
-    font-size: 500%;
-}
-#title2{
-    font-size: 150%;
-}
+
 h2{
-    margin: 0;
-    font-size: 250%;
+    font-size: 400%;
+    color: #655687;
+    background-color: #f4905e;
+    width: 30%;
+    margin: 5%;
+    border: 1px solid #655687;
+    text-align: center;
 }
 h3{
+    font-size: 250%;
     margin: 0;
-    font-size: 200%;
 }
 h4{
-    margin: 0;
     font-size: 175%;
 }
-div{
-    margin: 0;
-    border: 0;
-}
+
+
 div.title{
-    height: 25vh;
-    margin: 0;
-    border: 0;
-
+    height: 15vh;
 }
-
+.menu a{
+    font-size: 200%;
+    margin: 5%;
+    margin-top: 5%;
+}
 #left{
-    background-color: #0097a7;
+    background-color:#f19b19;
     text-align: right;
-    color: white;
+    color: #361d61;
 }
 #right{
-    background-color: white;
+    background-color: #361d61;
     text-align: left;
-    color: #0097a7;
+    line-height: .4;
+    color: #f19b19;
 }
 .body{
     width: 49.5%;
     display: inline-block;
     font-size: 500%;
-    color: #0097a7;
-    vertical-align: top;
+    color: #762867;
+    background-color: #e3dac1;
 }
-
+#onthistopic{
+    background-color: #e0c7c2;
+    color: #350da3;
+}
+#viables{
+    background-color: #efa040;
+    color: #610c45;
+}
+#sentiment{
+    background-color: #cdf2c8;
+    color: #231484;
+}
+#tamaduni{
+    background-color: #c8916d;
+    color: #6f4d81;
+}
 .body2{
     width: 30.5%;
     display: inline-block;
     font-size: 50%;
-    color: #0097a7;
+    color: #762867;
     text-align: center;
 }
 
-a{
+.menu a{
     text-decoration: none;
     color: #0097a7;
+    transition: ease-in-out;
+    background-color: white;
+    border: 1px solid #762867;
 
 }
 p.about:hover, a:hover{
@@ -98,21 +137,29 @@ p.about:hover, a:hover{
     transition: border-bottom .2s, border-left .4s, border-top .6s, border-right .9s;
 }
 iframe{
+    margin: 2%;
     font-size: 50%;
 }
 div.layer{
     text-align: center;
-    border: 0;
-    margin: 0;
     vertical-align: middle;
+}
+div.addOn{
+    background-color: #e3dac1;
+
+}
+div.project{
+    width: 80%;
+    display: inline-block;
+    margin-bottom: 5%;
 }
 div.rightBlock{
     display: inline-block;
-    width: 59.5%;
+    width: 49.5%;
 }
 div.leftBlock{
     display: inline-block;
-    width: 40%;
+    width: 49.5%;
     height: 100%;
 }
 @media (max-width:1000px){
@@ -122,13 +169,13 @@ div.leftBlock{
     }
 }
 #whiteBG{
-    background-color: white;
-    color: #757575;
+    background-color: #e3dac1;
+    color: #ac664b;
     height: 100%;
 }
 #greyBG{
-    color: white;
-    background-color: #757575;
+    color: #e3dac1;
+    background-color: #ac664b;
     height: 100%;
 }
 .alignR{
@@ -155,10 +202,10 @@ img.demo{
     text-decoration: overline;
     color: deeppink;
 }
-p.about:hover{
+a.about:hover{
     color: #c4d126;
 }
-.writing a:hover{
+a.writing:hover{
     color: #f5a578;
 }
 #greyBG a, #whiteBG a{

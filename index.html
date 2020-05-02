@@ -1,36 +1,116 @@
 <!DOCTYPE html>
 <html st>
-    <head>
-        <link rel="stylesheet" href="https://use.typekit.net/bta5wqh.css">
-        <link rel="stylesheet" href="css/main.css" type="text/css" rel="stylesheet">
-    </head>
-    <body class="thisIsBody">
-        <div class="mainDiv" >
-            <div class="title" id="left">
-                <h1>Laur</h1>
-            </div>
-            <div class="title" id="right">
-                <h1 style="display: inline-block;"> ence.</h1>
-                <p style="float: right; width:10%; margin: 2%; font-size: 250%;" class="about">about me</p>
-            </div>
-            <div  class="body" id="main-right">
-                <div style="text-align: right; margin: 5px;">
-                    <a class="projects" style="margin: 5px;" href="myprojects.html">projects</a>
-                </div>
-                <div class="writing" style=" margin:5px;text-align: left;">
-                    <a class="writng" style="border: 5px;" href="https://notesikeep.wordpress.com/"> writing</a>
-                </div>
-            </div>
-            <div class="body2" id="main-left">
-                    <h2 style="display: inline-block; font-size: 350%;">weekly insignt: 04/28/2020</h2>
-                    <iframe src="https://www.youtube.com/embed/OJWRb1OHauw" width="427" height="240" frameborder="0" allow="autoplay; fullscreen" allowfullscreen>
-                    </iframe>
-                    <p><a href="https://www.youtube.com/embed/OJWRb1OHauw">KAMAUU: Hometown Glory</a></p>
 
-            </div>
-            <script src="scripts/home.js"></script>
+<head>
+    <link rel="stylesheet" href="https://use.typekit.net/bta5wqh.css">
+    <link rel="stylesheet" href="css/main.css" type="text/css" rel="stylesheet">
+</head>
+
+<body class="thisIsBody">
+    <div class="mainDiv">
+        <div class="title" id="left">
+            <h1>Laur</h1>
+        </div>
+        <div class="title" id="right">
+            <h1 class="two" style="display: inline-block;"> ence.</h1>
         </div>
 
-            </body>
+
+        <div class="menu">
+            <a class="about" class="about">about me</a>
+            <a href="#myprojects">projects</a>
+            <a class="writing" href="https://notesikeep.wordpress.com/"> writing</a>
+        </div>
+        <div class="leftBlock">
+            <p class="bio">I'm a native of <span class="kenya">K</span>ENYA. <br> While growing up <span
+                    class="paroz">WITH MIXED TRIBE
+                    PARENTS</span> meant I didn't
+                value one
+                culture more
+                than another, being able to <em> see different points of view</em> and walk in <span
+                    class="shoes">different shoes </span> is what I
+                became attached to. <br>This idea, of being able to pursue <span class="perspectives">different
+                    perspectives</span> of a story knowing I
+                being aware I might only be scratching the surface is both <span class="motivation"> the GOAL and
+                    MOTIVATION </span> for whatever work I commit to.</p>
+        </div>
+        <div class="rightBlock">
+            <p>weekly insight: 04/28/2020</p>
+            <iframe src="https://www.youtube.com/embed/OJWRb1OHauw" width="427" height="240" frameborder="0"
+                allow="autoplay; fullscreen" allowfullscreen>
+            </iframe>
+            <p><a href="https://www.youtube.com/embed/OJWRb1OHauw">KAMAUU: Hometown Glory</a></p>
+
+        </div>
+    </div>
+
+    <div id="myprojects" class="layer">
+        <h2>projects:</h2>
+
+        <div class="project" id="onthistopic">
+            <h3>On This Topic</h3>
+
+            <div class="leftBlock">
+                <h4>a website to curate podcasts based on a specific topic</h4>
+                <p><em>Technologies: </em>Javascript, Nodejs, MongoDB, HTML, CSS</p>
+                <a href=" http://linserv1.cims.nyu.edu:20908/">Project Link</a>
+            </div>
+            <div class="rightBlock">
+                <img class="demo" src="css/images/on this topic.gif" alt="">
+            </div>
+        </div>
+
+        <div class="project" id="viables">
+            <h3>Viables</h3>
+            <div class="leftBlock">
+                <img class="demo" src="css/images/viables.png" alt="">
+            </div>
+            <div class="rightBlock">
+                <h4>a mobile app to track carton box reuse on campuses</h4>
+                <p><em>Technologies: </em>Flutter, Dart</p>
+                <a href="https://devpost.com/software/viables"> Devpost Link</a>
+            </div>
+
+
+        </div>
+        <div class="project" id="sentiment">
+            <h3>Sentiment Analysis</h3>
+            <div class="leftBlock">
+                <a href=" https://github.com/lbugasu/sentiment-analysis-on-movie-reviews"> Link to Repo</a>
+                <h4>implimented Naive Bayes algorithm to perform sentiment on movie reviews</h4>
+                <p><em>Technologies: </em>Python, Natural Language Translation Kit, Machine Learning</p>
+            </div>
+            <div class="rightBlock">
+                <img class="demo" src="css/images/sentiment-analysis.png" alt="">
+            </div>
+
+        </div>
+    </div>
+
+
+    <h2>in progress</h2>
+    <div class="layer">
+        <div id="tamaduni" class="project">
+            <h3>Tamaduni</h3>
+            <div class="leftBlock">
+                <h4>collecting stories and data of cultures</h4>
+                <p><em>Project Goals</em></p>
+                <ul>
+                    <li>Expand access to cultural and historical information to Kenyans</li>
+                    <li>digitize non-digital content</li>
+                    <li>Understand data from multiple source points</li>
+                </ul>
+            </div>
+            <div class="rightBlock">
+                <h4>Preliminary site:</h4>
+                <a href="http://tamaduni.org/">Site Link</a>
+                <img class="demo" src="css/images/tamaduni.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
 
 </html>
