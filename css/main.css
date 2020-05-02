@@ -53,6 +53,7 @@ h1{
     font-style: normal;
     margin: 0;
     border: 0;
+    line-height: .5;
 }
 
 h2{
@@ -72,10 +73,6 @@ h4{
     font-size: 175%;
 }
 
-
-div.title{
-    height: 15vh;
-}
 .menu a{
     font-size: 200%;
     margin: 5%;
@@ -85,11 +82,14 @@ div.title{
     background-color:#f19b19;
     text-align: right;
     color: #361d61;
+    vertical-align: bottom;
+}
+#left h1{
+    vertical-align: bottom;
 }
 #right{
     background-color: #361d61;
     text-align: left;
-    line-height: .4;
     color: #f19b19;
 }
 .body{
@@ -137,8 +137,16 @@ p.about:hover, a:hover{
     transition: border-bottom .2s, border-left .4s, border-top .6s, border-right .9s;
 }
 iframe{
-    margin: 2%;
     font-size: 50%;
+}
+#ifr{
+    margin-left: 2%;
+}
+a.clip{
+    color: #762867;
+}
+a.clip:hover{
+    color: #e4c32e;
 }
 div.layer{
     text-align: center;
@@ -159,7 +167,7 @@ div.rightBlock{
 }
 div.leftBlock{
     display: inline-block;
-    width: 49.5%;
+    width: 47.5%;
     height: 100%;
 }
 @media (max-width:1000px){
