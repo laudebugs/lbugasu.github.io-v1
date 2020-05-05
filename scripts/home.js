@@ -3,7 +3,7 @@ function inspire(){
 
     console.log('inspiring')
     switch(date){
-        case "05.05.2020":
+        case "2020-05-05":
             link = document.getElementById('video')
             link.setAttribute('src', "https://player.vimeo.com/video/390608374?color=9b9b9b&title=0&byline=0&portrait=0&badge=0")
             
@@ -12,7 +12,7 @@ function inspire(){
             vidname.innerHTML = '"Nothing at Stake"'
 
             break;
-        case "04.28.2020":
+        case "2020-04-28":
             link = document.getElementById('video')
             link.setAttribute('src', "https://www.youtube.com/embed/OJWRb1OHauw")
             
@@ -20,7 +20,7 @@ function inspire(){
             vidname.setAttribute('href','https://www.youtube.com/embed/OJWRb1OHauw')
             vidname.innerText = '"KAMAUU: Hometown Glory"'
             break;
-        case "04.21.2020":
+        case "2020-04-21":
             link = document.getElementById('video')
             link.setAttribute('src', "https://player.vimeo.com/video/348304224")
             
