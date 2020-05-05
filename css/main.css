@@ -267,4 +267,12 @@ hr{
         margin: 2.5%;
         margin-top: 2.5%;
     }
+    input{
+        height: 5%;
+        font-size: 200%;
+        margin: 0;
+    }
+    p.clip{
+        margin-top:0;
+    }
 }
