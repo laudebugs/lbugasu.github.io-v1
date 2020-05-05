@@ -145,11 +145,12 @@ iframe{
     padding: 0;
     /* position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; */
+    left: 0;*/
+    /* width: 100%;
+    height: 100%;  */
 }
 #ifr{
+    text-align: center;
     margin-left: 2%;
 }
 a.clip{
@@ -180,12 +181,7 @@ div.leftBlock{
     width: 47.5%;
     height: 100%;
 }
-@media (max-width:1000px){
-    .body2,.body, div.rightBlock, div.leftBlock{
-        width: 100%;
-        display: block;
-    }
-}
+
 #whiteBG{
     background-color: #e3dac1;
     color: #ac664b;
@@ -248,4 +244,27 @@ hr{
     width: 60%;
     border: 1.5px solid orange;
     margin-bottom: 2%;
+}
+@media (max-width:1000px){
+    .body2,.body, div.rightBlock, div.leftBlock{
+        width: 100%;
+        display: block;
+    }
+    iframe{
+        width: 100%;
+        height: 50vh;
+    }
+    .bio, p.videoname, label{
+        font-size: 200%;
+    }
+    div.contact{
+        width: 7.5%;
+        height: 7.5%;
+    }
+
+    .menu a{
+        font-size: 175%;
+        margin: 2.5%;
+        margin-top: 2.5%;
+    }
 }
