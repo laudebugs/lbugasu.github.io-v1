@@ -3,7 +3,7 @@
 
 <head>
     <title>Laurence</title>
-    
+
     <link rel="shortcut icon" type="image/png" href="css/images/favicon.png"/>
     <link rel="stylesheet" href="https://use.typekit.net/bta5wqh.css">
     <link rel="stylesheet" href="css/main.css" type="text/css" rel="stylesheet">
@@ -38,12 +38,17 @@
                     MOTIVATION </span> for whatever work I commit to.</p>
         </div>
         <div id="ifr" class="rightBlock">
-            <p>weekly insight: 04/28/2020</p>
-            <iframe src="https://www.youtube.com/embed/OJWRb1OHauw" width="427" height="240" frameborder="0"
+            <label  for="weeklyInsight">weekly insight:</label>
+            <select name="weekly" id="weeklyInsight">
+                <option value="05.05.2020" selected>May 5th 2020</option>
+                <option value="04.28.2020">April 28th 2020</option>
+                <option value="04.21.2020">April 21st 2020</option>
+            </select>
+            <br>
+            <iframe id="video" src="" width="427" height="240" frameborder="0"
                 allow="autoplay; fullscreen" allowfullscreen>
             </iframe>
-            <p><a class="clip" href="https://www.youtube.com/embed/OJWRb1OHauw">KAMAUU: Hometown Glory</a></p>
-
+            <p style=" border: 0;"><a id="videoname" class="clip" href=""></a></p>
         </div>
     </div>
 
@@ -142,5 +147,5 @@
 
 
 </body>
-    
+    <script src="scripts/home.js"></script>
 </html>

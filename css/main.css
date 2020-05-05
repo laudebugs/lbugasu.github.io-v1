@@ -17,6 +17,10 @@ body{
     margin: 0;
     padding: 0;
 }
+select{
+    background-color: #b3ac9b;
+    font-family: temeraire, serif;
+}
 p{
     font-size: 125%;
 }
@@ -138,6 +142,12 @@ p.about:hover, a:hover{
 }
 iframe{
     font-size: 50%;
+    padding: 0;
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; */
 }
 #ifr{
     margin-left: 2%;
