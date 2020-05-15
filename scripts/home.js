@@ -3,6 +3,15 @@ function inspire(){
 
     console.log('inspiring')
     switch(date){
+        case "2020-05-11":
+            link = document.getElementById('video')
+            link.setAttribute('src', "https://player.vimeo.com/video/412071250")
+            
+            vidname = document.getElementById('videoname');
+            vidname.setAttribute('href',"https://vimeo.com/412071250")
+            vidname.innerText = '"MAN 2020"'
+            break;
+            
         case "2020-05-05":
             link = document.getElementById('video')
             link.setAttribute('src', "https://player.vimeo.com/video/390608374?color=9b9b9b&title=0&byline=0&portrait=0&badge=0")
@@ -28,6 +37,7 @@ function inspire(){
             vidname.setAttribute('href','https://vimeo.com/348304224')
             vidname.innerText = '"AFRONAUTS"'
             break;
+        
     }
 }
 
