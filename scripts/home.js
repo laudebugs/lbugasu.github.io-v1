@@ -3,7 +3,7 @@ function inspire(){
 
     console.log('inspiring')
     switch(date){
-        case "2020-05-19":
+        case "2020-05-26":
             link = document.getElementById('video')
             link.setAttribute('src', "https://player.vimeo.com/video/186141191")
             
