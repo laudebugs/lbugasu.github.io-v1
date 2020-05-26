@@ -6,7 +6,6 @@ function inspire(){
         case "2020-05-26":
             link = document.getElementById('video')
             link.setAttribute('src', "https://player.vimeo.com/video/186141191")
-            
             vidname = document.getElementById('videoname');
             vidname.setAttribute('href',"https://vimeo.com/186141191")
             vidname.innerText = '"Adrift"'
