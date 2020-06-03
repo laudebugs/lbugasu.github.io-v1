@@ -3,6 +3,20 @@ function inspire(){
 
     console.log('inspiring')
     switch(date){
+        case "2020-06-02":
+            link = document.getElementById('video')        
+            link.setAttribute('src', "https://player.vimeo.com/video/405211306")
+            vidname = document.getElementById('videoname');
+            vidname.setAttribute('href',"https://vimeo.com/4052113063")
+            vidname.innerText = 'The 1619 Project of the New York Times Magazine'
+            break;
+        case "2020-05-26":
+            link = document.getElementById('video')        
+            link.setAttribute('src', "https://player.vimeo.com/video/410720817")
+            vidname = document.getElementById('videoname');
+            vidname.setAttribute('href',"https://vimeo.com/410720817")
+            vidname.innerText = 'Delivered'
+            break;
         case "2020-05-19":
             link = document.getElementById('video')
             link.setAttribute('src', "https://player.vimeo.com/video/418623973")
