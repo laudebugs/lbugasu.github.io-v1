@@ -3,6 +3,7 @@ function inspire(){
 
     console.log('inspiring')
     switch(date){
+<<<<<<< HEAD
         case "2020-06-02":
             link = document.getElementById('video')        
             link.setAttribute('src', "https://player.vimeo.com/video/405211306")
@@ -17,6 +18,16 @@ function inspire(){
             vidname.setAttribute('href',"https://vimeo.com/410720817")
             vidname.innerText = 'Delivered'
             break;
+=======
+        case "2020-05-26":
+            link = document.getElementById('video')
+            link.setAttribute('src', "https://player.vimeo.com/video/186141191")
+            vidname = document.getElementById('videoname');
+            vidname.setAttribute('href',"https://vimeo.com/186141191")
+            vidname.innerText = '"Adrift"'
+            break;
+        
+>>>>>>> 3e00181c0c71df99e379722658fa69c14986c5e1
         case "2020-05-19":
             link = document.getElementById('video')
             link.setAttribute('src', "https://player.vimeo.com/video/418623973")
