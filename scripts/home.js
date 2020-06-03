@@ -12,10 +12,10 @@ function inspire(){
             break;
         case "2020-05-26":
             link = document.getElementById('video')        
-            link.setAttribute('src', "https://player.vimeo.com/video/410720817")
+            link.setAttribute('src', "https://player.vimeo.com/video/422664003")
             vidname = document.getElementById('videoname');
-            vidname.setAttribute('href',"https://vimeo.com/410720817")
-            vidname.innerText = 'Delivered'
+            vidname.setAttribute('href',"https://vimeo.com/422664003")
+            vidname.innerText = 'Freedom is a Serious Crime'
             break;
         case "2020-05-19":
             link = document.getElementById('video')
