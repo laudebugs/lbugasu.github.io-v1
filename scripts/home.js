@@ -12,10 +12,10 @@ function inspire() {
       break;
     case "2020-06-16":
       link = document.getElementById("video");
-      link.setAttribute("src", "https://www.youtube.com/embed/1TewCPi92ro");
+      link.setAttribute("src", "https://player.vimeo.com/video/295751086");
       vidname = document.getElementById("videoname");
-      vidname.setAttribute("href", "https://www.youtube.com/watch?v=1TewCPi92ro");
-      vidname.innerText = 'Even though it\'s only Tuesday:\n "ITS FRIDAY THEN, ITS SATURDAY, SUNDAY! GO MUFASA!"';
+      vidname.setAttribute("href", "https://vimeo.com/295751086");
+      vidname.innerText = 'MÚKÙNÉ';
       break;
     case "2020-06-09":
       link = document.getElementById("video");
