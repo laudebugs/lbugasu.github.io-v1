@@ -134,8 +134,8 @@ h4{
     transition: ease-in-out;
     background-color: white;
     border: 1px solid #762867;
-
 }
+
 p.about:hover, a:hover{
     color:  rgba(159, 109, 238, 0.767);
     transition: border-bottom .2s, border-left .4s, border-top .6s, border-right .9s;
@@ -221,6 +221,21 @@ a.about:hover{
 }
 a.writing:hover{
     color: #f5a578;
+}
+a.site:hover{
+    color: gray;
+    text-align: right;
+}
+a.site{
+    text-decoration: none;
+    color: black;
+    transition: ease-in-out;
+    background-color: white;
+    border: 1px solid #762867;
+    border-radius: 10px;
+    padding-left:1.5%;
+    padding-right: 1.5%;
+    font-style: italic;
 }
 #greyBG a, #whiteBG a{
     color: rgb(195, 189, 98);
