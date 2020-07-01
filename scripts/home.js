@@ -3,7 +3,15 @@ function inspire() {
 
   console.log("inspiring");
   switch (date) {
-    case "2020-06-23":
+        case "2020-06-30":
+      link = document.getElementById("video");
+      link.setAttribute("src", "https://player.vimeo.com/video/431803145";        
+      vidname = document.getElementById("videoname");
+      vidname.setAttribute("href", "https://vimeo.com/431803145");
+      vidname.innerText = 'The Walking Fish"';
+      break;
+ 
+          case "2020-06-23":
       link = document.getElementById("video");
       link.setAttribute("src", "https://player.vimeo.com/video/428523994");
       vidname = document.getElementById("videoname");
