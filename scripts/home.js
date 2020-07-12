@@ -8,6 +8,7 @@ function inspire() {
   .then(response => response.json())
   .then(data=> console.log(data))
   .catch(error => console.error(error));
+  
   switch (date) {
     case "2020-07-06":
       link = document.getElementById("video");
