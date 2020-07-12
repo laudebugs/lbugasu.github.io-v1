@@ -1,22 +1,18 @@
 function inspire() {
-  let days = (new Date()).getUTCDay()
+  let days = (new Date(document.getElementById("weeklyInsight").value)).getUTCDay()
   let weekOf = new Date(document.getElementById("weeklyInsight").value)
-  console.log(days)
-  weekOf.setDate(weekOf.getDate()-days)
-  console.log(formatDate(weekOf))
+  weekOf.setDate(weekOf.getDate()-days+1)
   fetch('https://raw.githubusercontent.com/lbugasu/lbugasu.github.io/master/scripts/weeklyVideos.json')
   .then(response => response.json())
   .then(data=>{
-    console.log(data[formatDate(weekOf)])
+    getThisVideo = data[formatDate(weekOf)]
     link = document.getElementById("video");
-    link.setAttribute("src", data["embed-link"]);
+    link.setAttribute("src", getThisVideo["embed-link"]);
     vidname = document.getElementById("videoname");
-    vidname.setAttribute("href", data["video-link"]);
-    vidname.innerText = data["title"];
+    vidname.setAttribute("href", getThisVideo["video-link"]);
+    vidname.innerText = getThisVideo["title"];
   } )
   .catch(error => console.error(error));
-
-  
 }
 
 function main() {
