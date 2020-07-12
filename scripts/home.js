@@ -1,7 +1,13 @@
 function inspire() {
-  const date = document.getElementById("weeklyInsight").value;
-
-  console.log("inspiring");
+  let days = (new Date()).getUTCDay()
+  let date = document.getElementById("weeklyInsight").value;
+  let weekOf = new Date()
+  weekOf.setDate(weekOf.getDate()-days)
+  console.log(formatDate(weekOf))
+  fetch('./scripts/weeklyVideos.json', {mode: 'no-cors'})
+  .then(response => response.json())
+  .then(data=> console.log(data))
+  .catch(error => console.error(error));
   switch (date) {
     case "2020-07-06":
       link = document.getElementById("video");
@@ -105,6 +111,8 @@ function inspire() {
 }
 
 function main() {
+  let d = formatDate(new Date())
+  document.getElementById("weeklyInsight").value = d;
   inspire();
   document
     .getElementById("weeklyInsight")
@@ -114,3 +122,17 @@ function main() {
 }
 
 document.addEventListener("DOMContentLoaded", main);
+
+function formatDate(date) {
+  var d = new Date(date),
+      month = '' + (d.getMonth() + 1),
+      day = '' + d.getDate(),
+      year = d.getFullYear();
+
+  if (month.length < 2) 
+      month = '0' + month;
+  if (day.length < 2) 
+      day = '0' + day;
+
+  return [year, month, day].join('-');
+}
