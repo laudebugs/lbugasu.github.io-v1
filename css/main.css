@@ -37,7 +37,8 @@ span.paroz{
     font-size: 70%;
 }
 span.shoes{
-    font-weight: 700;
+    font-weight: 500;
+    font-style: oblique;
 }
 span.perspectives{
     text-decoration: underline;
@@ -47,6 +48,10 @@ span.motivation{
     font-style: normal;
     font-weight: 200;
     font-size: 150%;
+}
+span.work{
+    text-decoration: underline #f19b19;
+    font-weight: 600;
 }
 li{
     margin: 0;
