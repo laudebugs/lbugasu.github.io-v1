@@ -75,7 +75,7 @@ h3{
     margin: 0;
 }
 h4{
-    font-size: 175%;
+    font-size: 150%;
 }
 
 .menu a{
@@ -183,11 +183,13 @@ div.project{
 div.rightBlock{
     display: inline-block;
     width: 49.5%;
+    vertical-align: top;
 }
 div.leftBlock{
     display: inline-block;
     width: 47.5%;
     height: 100%;
+    vertical-align: top;
 }
 
 #whiteBG{
