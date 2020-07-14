@@ -1,6 +1,7 @@
 # lbugasu.github.io
-This is my personal site
+
+This is my personal site🤽🏾
 
 Happy to share my work.
 
-Currently learning React and developing PWAs
+Built with some **HTML**, **CSS** and **Client-side JS**
