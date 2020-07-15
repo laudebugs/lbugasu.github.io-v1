@@ -1,3 +1,20 @@
+document.addEventListener("DOMContentLoaded", main);
+
+function main() {
+  let item  = document.getElementsByClassName('daysLeft')
+  console.log(item)
+  item.innerText
+  let d = formatDate(new Date())
+  document.getElementById("weeklyInsight").value = d;
+  inspire();
+  document
+    .getElementById("weeklyInsight")
+    .addEventListener("change", function (evt) {
+      inspire();
+    });
+}
+
+
 function inspire() {
   let days = (new Date(document.getElementById("weeklyInsight").value)).getUTCDay()
   let weekOf = new Date(document.getElementById("weeklyInsight").value)
@@ -15,18 +32,6 @@ function inspire() {
   .catch(error => console.error(error));
 }
 
-function main() {
-  let d = formatDate(new Date())
-  document.getElementById("weeklyInsight").value = d;
-  inspire();
-  document
-    .getElementById("weeklyInsight")
-    .addEventListener("change", function (evt) {
-      inspire();
-    });
-}
-
-document.addEventListener("DOMContentLoaded", main);
 
 function formatDate(date) {
   var d = new Date(date),
