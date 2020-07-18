@@ -1,73 +1,73 @@
-
 {
-    "2020-07-19":{
-        "video-link":"https://www.youtube.com/watch?v=WADgePrAtvI",
-        "embed-link":"https://www.youtube-nocookie.com/embed/WADgePrAtvI",
-        "title":"HONNE - no song without you"
-    },
-    "2020-07-12":{
-        "video-link":"https://vimeo.com/435789152",
-        "embed-link":"https://player.vimeo.com/video/435789152",
-        "title":"Fun & Games"
-    },
-    "2020-07-05":{
-        "video-link": "https://vimeo.com/430690235",
-        "title":"A Mind Sang",
-        "embed-link":"https://player.vimeo.com/video/430690235"},
-    "2020-06-28":{
-        "video-link":"https://vimeo.com/431803145",
-        "embed-link":"https://player.vimeo.com/video/431803145",
-        "title":"The Walking Fish"
-    },
-    "2020-06-21":{
-        "video-link":"https://vimeo.com/428523994",
-        "embed-link":"https://player.vimeo.com/video/428523994",
-        "title":"\"QUICK FIX\""
-    },
-    "2020-06-14":{
-        "video-link":"https://vimeo.com/295751086",
-        "embed-link":"https://player.vimeo.com/video/295751086",
-        "title": "MÚKÙNÉ"
-    },
-    "2020-06-07":{
-        "video-link":"https://vimeo.com/200331788",
-        "embed-link":"https://player.vimeo.com/video/200331788",
-        "title":"Kenzo \"The Realest Real\""
-    },
-    
-        "2020-05-31":{
-        "video-link":"https://vimeo.com/405211306",
-        "embed-link":"https://player.vimeo.com/video/405211306",
-        "title":"The 1619 Project of the New York Times Magazine"
-    },
-    "2020-05-24":{
-        "video-link":"https://vimeo.com/422664003",
-        "embed-link":"https://player.vimeo.com/video/422664003",
-        "title":"Freedom is a Serious Crime"
-    },
-    "2020-05-17":{
-        "video-link":"https://vimeo.com/418623973",
-        "embed-link":"https://player.vimeo.com/video/418623973",
-        "title":"Jack & Ellington"
-    },
-    "2020-05-10":{
-        "video-link":"https://vimeo.com/412071250",
-        "embed-link":"https://player.vimeo.com/video/412071250",
-        "title":"\"MAN 2020\""
-    },
-    "2020-05-03":{
-        "video-link":"https://vimeo.com/390608374",
-        "embed-link":"https://player.vimeo.com/video/390608374",
-        "title":"\"Nothing at Stake\""
-    },
-    "2020-04-26":{
-        "video-link":"https://www.youtube.com/watch?v=OJWRb1OHauw",
-        "embed-link":"https://www.youtube-nocookie.com/embed/OJWRb1OHauw",
-        "title":"\"KAMAUU: Hometown Glory\""
-    }
-    ,"2020-04-19":{
-        "video-link":"https://vimeo.com/348304224",
-        "embed-link":"https://player.vimeo.com/video/348304224",
-        "title":"\"AFRONAUTS\""
-    }
+  "2020-07-19": {
+    "video-link": "https://vimeo.com/435828323",
+    "embed-link": "https://player.vimeo.com/video/435828323",
+    "title": "In My Particular Case"
+  },
+  "2020-07-12": {
+    "video-link": "https://vimeo.com/435789152",
+    "embed-link": "https://player.vimeo.com/video/435789152",
+    "title": "Fun & Games"
+  },
+  "2020-07-05": {
+    "video-link": "https://vimeo.com/430690235",
+    "title": "A Mind Sang",
+    "embed-link": "https://player.vimeo.com/video/430690235"
+  },
+  "2020-06-28": {
+    "video-link": "https://vimeo.com/431803145",
+    "embed-link": "https://player.vimeo.com/video/431803145",
+    "title": "The Walking Fish"
+  },
+  "2020-06-21": {
+    "video-link": "https://vimeo.com/428523994",
+    "embed-link": "https://player.vimeo.com/video/428523994",
+    "title": "\"QUICK FIX\""
+  },
+  "2020-06-14": {
+    "video-link": "https://vimeo.com/295751086",
+    "embed-link": "https://player.vimeo.com/video/295751086",
+    "title": "MÚKÙNÉ"
+  },
+  "2020-06-07": {
+    "video-link": "https://vimeo.com/200331788",
+    "embed-link": "https://player.vimeo.com/video/200331788",
+    "title": "Kenzo \"The Realest Real\""
+  },
+
+  "2020-05-31": {
+    "video-link": "https://vimeo.com/405211306",
+    "embed-link": "https://player.vimeo.com/video/405211306",
+    "title": "The 1619 Project of the New York Times Magazine"
+  },
+  "2020-05-24": {
+    "video-link": "https://vimeo.com/422664003",
+    "embed-link": "https://player.vimeo.com/video/422664003",
+    "title": "Freedom is a Serious Crime"
+  },
+  "2020-05-17": {
+    "video-link": "https://vimeo.com/418623973",
+    "embed-link": "https://player.vimeo.com/video/418623973",
+    "title": "Jack & Ellington"
+  },
+  "2020-05-10": {
+    "video-link": "https://vimeo.com/412071250",
+    "embed-link": "https://player.vimeo.com/video/412071250",
+    "title": "\"MAN 2020\""
+  },
+  "2020-05-03": {
+    "video-link": "https://vimeo.com/390608374",
+    "embed-link": "https://player.vimeo.com/video/390608374",
+    "title": "\"Nothing at Stake\""
+  },
+  "2020-04-26": {
+    "video-link": "https://www.youtube.com/watch?v=OJWRb1OHauw",
+    "embed-link": "https://www.youtube-nocookie.com/embed/OJWRb1OHauw",
+    "title": "\"KAMAUU: Hometown Glory\""
+  },
+  "2020-04-19": {
+    "video-link": "https://vimeo.com/348304224",
+    "embed-link": "https://player.vimeo.com/video/348304224",
+    "title": "\"AFRONAUTS\""
+  }
 }
