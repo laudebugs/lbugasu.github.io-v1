@@ -1,11 +1,11 @@
 document.addEventListener("DOMContentLoaded", main);
 
 function main() {
-  let item = document.getElementsByClassName("daysLeft")[0];
-  let begin = new Date("2020-06-01");
-  daysLeft = 90 - date_diff_indays(begin, new Date());
+  // let item = document.getElementsByClassName("daysLeft")[0];
+  // let begin = new Date("2020-06-01");
+  // daysLeft = 90 - date_diff_indays(begin, new Date());
 
-  item.innerText = daysLeft;
+  // item.innerText = daysLeft;
 
   let d = formatDate(new Date());
   document.getElementById("weeklyInsight").value = d;
